@@ -1,20 +1,19 @@
-import React, { Component } from 'react';
-import logo from '../logo.svg';
+import React, {Component} from 'react';
 import './App.css';
+import Container from "react-bootstrap/Container";
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <div className="App-header">
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
+
+    render() {
+        return (
+            <Container className={'App-header'}>
+                <Container className={'App'}>
+                    <p>The <b>pessimist</b> sees difficulty in every opportunity</p>
+                    <p>The <b>optimist</b> sees opportunity in every difficulty</p>
+                </Container>
+            </Container>
+        );
+    }
 }
 
 export default App;

@@ -1,6 +1,6 @@
 ## MyLuckyNumber
 
-Simple application which generates your lucky number based on your date of birth.
+Simple application using following tech stack.
 
 ## Tech Stack
 
